@@ -18,4 +18,4 @@ class FineCalculatorUI:
     def calculate(self):
         lend_id = int(self.lend_id_entry.get())
         fine = return_book(lend_id)  # Caution: this also marks returned!
-        self.result_label.config(text=f"Fine: Rs. {fine}")
+        self.result_label.config(text=f"Fine: Rs. {fine}")fine
